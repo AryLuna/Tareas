@@ -1,0 +1,78 @@
+:root{
+    --color-primario: #790129;
+    --color-secundario: #c9184a;
+    --color-input: #ff8fab;
+    --bg: #ffc2d1;
+    --text-size: 1.5rem;
+    --color-text: rgb(255, 255, 255);
+}
+body{
+    font-family: "Dosis", sans-serif;
+    background-color: var(--bg);
+    height: 10vh;
+    color: var(--color-text);
+    display: flex;
+    justify-content: center;
+}
+.container{
+    max-width: 80%;
+    width: 400px;
+    height: 600px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #fc718f;
+    border-radius: 10px;
+}
+encabezado{
+    padding: 10px 0 5px 0;
+}
+.agregar{
+    background-color: #790129;
+    border-radius: 15px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap: 70px;
+}
+.agregar input{
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 8px;
+    padding-left: 10px;
+}
+#input::placeholder{
+    font-size: 1.3rem;
+    color: #c9184a;
+}
+.agregar i{
+    font-size: 45px;
+}
+.agregar i:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+#lista h2{
+    margin-bottom: 20px;
+}
+.tareas{
+    font-size: 25px;
+}
+.tareas li{
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px;
+    color: #fc456d;
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tareas i:hover{
+    color: #790129;
+}
+.tachado{
+    text-decoration: line-through;
+    color: #790129;
+}
